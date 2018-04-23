@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameContoller : MonoBehaviour {
 
@@ -176,7 +177,7 @@ public class GameContoller : MonoBehaviour {
 		// as a scale for movement.
 		int moveAmount;
 
-		if (amount == 13) {
+		if (amount >= 12) {
 			moveAmount = 5;
 		} else if (amount > 6) {
 			moveAmount = 2;
@@ -211,5 +212,15 @@ public class GameContoller : MonoBehaviour {
 
 	void WeHaveAWinner() {
 		isRaceOver = true;
+
+		if (Winner == 0) {
+			SceneManager.LoadScene ("_PLAYERWIN_");
+		} else {
+			SceneManager.LoadScene ("_COMPUTERWIN_");
+		}
 	}
+
+	public void MainMenu() {
+		SceneManager.LoadScene ("_MainMenu_");
+	}	
 }

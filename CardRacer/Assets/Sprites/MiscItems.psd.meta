@@ -8,6 +8,8 @@ TextureImporter:
     21300002: Divider
     21300004: HandSpots
     21300006: StartingLine
+    21300008: YOU
+    21300010: COMPUTER
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -173,6 +175,34 @@ TextureImporter:
         y: 266
         width: 10
         height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: YOU
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 142
+        width: 228
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: COMPUTER
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 85
+        width: 227
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

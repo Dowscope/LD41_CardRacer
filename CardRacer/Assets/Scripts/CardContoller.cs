@@ -30,7 +30,7 @@ public class CardContoller : MonoBehaviour {
 
 	// For moving purposes
 	bool isMoving = false;
-	float MovingSpeed = 4f;
+	float MovingSpeed = 1f;
 
 	// Use this for initialization
 	void Start () {
